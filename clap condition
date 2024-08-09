@@ -1,0 +1,11 @@
+<?php
+function clapYourHands($bol1, $bol2){
+  if ($bol1 && $bol2){
+    return "CLAP!";
+  }else{
+    return ":(";
+  }
+}
+
+echo clapYourHands(TRUE , TRUE);
+echo clapYourHands(TRUE, FALSE);
