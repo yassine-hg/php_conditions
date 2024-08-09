@@ -1,0 +1,14 @@
+<?php
+namespace Codecademy;
+
+function duckDuckGoose($is_goose){
+  if (!$is_goose){
+    return "duck";
+  } else {
+    return "goose!";
+  }
+}
+
+echo duckDuckGoose(FALSE) . "\n";
+echo duckDuckGoose(TRUE) . "\n";
+echo duckDuckGoose(FALSE);
