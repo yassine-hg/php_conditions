@@ -1,0 +1,15 @@
+<?php
+function both($bol1, $bol2){
+  if ($bol1){
+    if($bol2){
+      return "both";
+    } else{
+        return "not both";
+    }
+  } else {
+    return "not both";
+  }
+}
+
+echo both(TRUE , TRUE) . "\n";
+echo both(FALSE, TRUE);
